@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a744da6216a3f214fa94c8752792e9b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_assets:
+    m_profiles:
+    - {fileID: 11400000, guid: ea67e5f66dbee0b42b037a6b701481dc, type: 2}
+    m_scenes:
+    - {fileID: 11400000, guid: 479c825538f484448bba3e015e3509b4, type: 2}
+    - {fileID: 11400000, guid: 6c7f99f658c03d04399d561b2b118351, type: 2}
+    - {fileID: 11400000, guid: 2726841d645e56a4a86918c0e141a83a, type: 2}
+    - {fileID: 11400000, guid: 784345c680e77bd4983798ae79ae5a21, type: 2}
+    - {fileID: 11400000, guid: 0090a598e9b57dd4e986769ed6908b2a, type: 2}
+    - {fileID: 11400000, guid: 28188eb985420fd4286877f0e534b5a8, type: 2}
+    - {fileID: 11400000, guid: 34f40c8cd12ff9440915ec51473ab7b5, type: 2}
+    - {fileID: 11400000, guid: 2726841d645e56a4a86918c0e141a83a, type: 2}
+    - {fileID: 11400000, guid: 784345c680e77bd4983798ae79ae5a21, type: 2}
+    - {fileID: 11400000, guid: 479c825538f484448bba3e015e3509b4, type: 2}
+    - {fileID: 11400000, guid: 28188eb985420fd4286877f0e534b5a8, type: 2}
+    - {fileID: 11400000, guid: 6c7f99f658c03d04399d561b2b118351, type: 2}
+    - {fileID: 11400000, guid: 0090a598e9b57dd4e986769ed6908b2a, type: 2}
+    - {fileID: 11400000, guid: 54e8d5b88ad5c0f4f8de82c946e35976, type: 2}
+    - {fileID: 11400000, guid: 5422a37e58b4e5d48a0417965c3a6e09, type: 2}
+    - {fileID: 11400000, guid: 07d4e9e10c5d1424cbdf655da1cdb77c, type: 2}
+    - {fileID: 11400000, guid: 4192c191a98add946bf7bb1e39366da9, type: 2}
+    - {fileID: 11400000, guid: 90d940355893f4c4491e49d835d74dfb, type: 2}
+    - {fileID: 11400000, guid: c8bcd161419291342b84d93fd1b365a6, type: 2}
+    - {fileID: 11400000, guid: f260dfa7f8539664b92d5fb770ff4df8, type: 2}
+    - {fileID: 11400000, guid: 4e1669b0c873cbf4482774cf77514ac4, type: 2}
+    - {fileID: 11400000, guid: a34224a313a4d8a48a383b6ae1605cbf, type: 2}
+    - {fileID: 11400000, guid: 7506c019e04817c4dae3c65654a727d7, type: 2}
+    - {fileID: 11400000, guid: 9280929e10128a94a81bed27a596c267, type: 2}
+    - {fileID: 11400000, guid: 7d3398e8a549bba458ae311f3ec8e045, type: 2}
+    - {fileID: 11400000, guid: b479e4777b8258940942d2f3f99a6313, type: 2}
+    - {fileID: 11400000, guid: be6ff5784aa518941a1c9f47eefc4a47, type: 2}
+    - {fileID: 11400000, guid: 1d764e3b7ca7c264986d777d663dccfe, type: 2}
+    - {fileID: 11400000, guid: 24527e97df7362b44b2bdc64e0fb1a10, type: 2}
+    - {fileID: 11400000, guid: de2a03334878c3846b6e7e3f104cf5dd, type: 2}
+    - {fileID: 11400000, guid: fce9f84c2380cb64b956b1df2f3c2565, type: 2}
+    - {fileID: 11400000, guid: b34bce5369776a644a206e6ef9f9c3c0, type: 2}
+    - {fileID: 11400000, guid: 3d9d7e497fd53744d896896d7ab8f9fc, type: 2}
+    - {fileID: 11400000, guid: 71f040aedae72bf4ca764e1e98ff69f8, type: 2}
+    - {fileID: 11400000, guid: c267378a1975bae44a4ceb77676066e9, type: 2}
+    - {fileID: 11400000, guid: 35e5be697a73d23468ca267bf47290e9, type: 2}
+    - {fileID: 11400000, guid: e5cab2fa17299c845bd6c411ecf6c939, type: 2}
+    - {fileID: 11400000, guid: f343270969d79dc4ca306ad2fc0f7296, type: 2}
+    - {fileID: 11400000, guid: 5395d5d36cff4a0418f32a029144b85a, type: 2}
+    - {fileID: 11400000, guid: 5ecc2c3d0d756e64d91aaee70bc44dee, type: 2}
+    - {fileID: 11400000, guid: 68f8155b97303114ea93ab22be2dbe7d, type: 2}
+    - {fileID: 11400000, guid: 6e7c487e9416b024fbd806814d77ca00, type: 2}
+    - {fileID: 11400000, guid: 3e62c8acf22e77d438a9f56866a365e7, type: 2}
+    - {fileID: 11400000, guid: 1b63d0f1f6f7c9d4186391533acdc0d2, type: 2}
+    - {fileID: 11400000, guid: dfc8e5febbe6c2e49b04f5812ec78fe2, type: 2}
+    - {fileID: 11400000, guid: 909210a58f9b88f489e377916f879d8a, type: 2}
+    - {fileID: 11400000, guid: bd4974b50384e1148a64752c9c0b3d24, type: 2}
+    - {fileID: 11400000, guid: 424f07d8d0d02354497f8e862437ef7f, type: 2}
+    - {fileID: 11400000, guid: 833067a70a750c7439cdc96d257b759a, type: 2}
+    - {fileID: 11400000, guid: 9aa003d1b29069441ac17a88f265d7cb, type: 2}
+    - {fileID: 11400000, guid: 535ea07bac4d5ee4c87f8e71d52ff525, type: 2}
+    - {fileID: 11400000, guid: 7d6ca8f80fa3b3141a446d73a6ddb54c, type: 2}
+    - {fileID: 11400000, guid: 847c165f5fa266c4086c9290fb30169e, type: 2}
+    - {fileID: 11400000, guid: 0a128aa096ffec04faeb2aee22910c99, type: 2}
+    - {fileID: 11400000, guid: 30028961f7e2a574a8b7fcf8325732af, type: 2}
+    - {fileID: 11400000, guid: e866cd859519f174a8af5aa86a427db5, type: 2}
+    - {fileID: 11400000, guid: 1e835be2e701a5d468f55fb6d68e4cae, type: 2}
+    - {fileID: 11400000, guid: edccb820da277ee48bbf72af1d0188fa, type: 2}
+    - {fileID: 11400000, guid: 5d2fa765e700ace40a3b17e96de5863e, type: 2}
+    - {fileID: 11400000, guid: 7c1dc82b3821bdf45854fdaba48d4cd3, type: 2}
+    - {fileID: 11400000, guid: 01d41465e97935c40892ac3f560928c3, type: 2}
+    - {fileID: 11400000, guid: 015af222d67975d47a30b83951869ead, type: 2}
+    - {fileID: 11400000, guid: 8106344ef160d9047a74c0fb8c7e33e6, type: 2}
+    - {fileID: 11400000, guid: fa0bf1a5780579b46995c7a11b0f638d, type: 2}
+    - {fileID: 11400000, guid: 4fa7d3864c4b58d468223bc88f35009b, type: 2}
+    - {fileID: 11400000, guid: deed4a2c4263ab84299e870446f76669, type: 2}
+    - {fileID: 11400000, guid: 0454b59d2c9eb3a44becd2f61f49b7db, type: 2}
+    - {fileID: 11400000, guid: 89b9bdd64ac06e54e8235b4c9b2dd97e, type: 2}
+    - {fileID: 11400000, guid: 1034100906110e54bb52a785a87edd05, type: 2}
+    - {fileID: 11400000, guid: 4fa4cd977748430429f45154e88c7a8f, type: 2}
+    - {fileID: 11400000, guid: 2b4c062ed890ff94abddb442d413deaf, type: 2}
+    - {fileID: 11400000, guid: 99711361206103544912cbffe42083e5, type: 2}
+    - {fileID: 11400000, guid: 7157c59057652f84f8281256e245fc28, type: 2}
+    - {fileID: 11400000, guid: 88e75b338a2987340b0245e7b85802cb, type: 2}
+    - {fileID: 11400000, guid: 36f07d398ef999e4cb841f36513845fd, type: 2}
+    - {fileID: 11400000, guid: 9cc7c882f8ed91a4fb7e52e0b5d59736, type: 2}
+    - {fileID: 11400000, guid: 93d3c6b83d8426f4f88408061adae5a5, type: 2}
+    - {fileID: 11400000, guid: 9fee368fc53c42c4cbdabd8606173e01, type: 2}
+    - {fileID: 11400000, guid: 8d59f0ec051cbca439dc0c2689e79ee1, type: 2}
+    - {fileID: 11400000, guid: 22f8742a88fafed43b7fd1331f996a16, type: 2}
+    - {fileID: 11400000, guid: 7e8b30d1274105d4ebd6db8f89d0795f, type: 2}
+    - {fileID: 11400000, guid: 84eb30029b6e9b14aab6be8b57f934ae, type: 2}
+    m_collections:
+    - {fileID: -2834648111923181126, guid: ea67e5f66dbee0b42b037a6b701481dc, type: 2}
+    - {fileID: 6778766566519295680, guid: ea67e5f66dbee0b42b037a6b701481dc, type: 2}
+    - {fileID: -6366578430325381964, guid: ea67e5f66dbee0b42b037a6b701481dc, type: 2}
+    - {fileID: 8469186347813310372, guid: ea67e5f66dbee0b42b037a6b701481dc, type: 2}
+    m_collectionTemplates: []
+    m_sceneHelper: {fileID: 11400000, guid: ccdc1619da578fa44a6cb1497b5e7a05, type: 2}
+    m_defaultScenePath: Assets/AdvancedSceneManager/ASM - Fallback scene.unity
+  m_projectSettings:
+    m_defaultProfile: {fileID: 0}
+    m_forceProfile: {fileID: 0}
+    m_buildProfile: {fileID: 11400000, guid: ea67e5f66dbee0b42b037a6b701481dc, type: 2}
+    m_checkForDuplicateSceneOperations: 1
+    m_preventSpammingEventMethods: 0
+    m_spamCheckCooldown: 0.5
+    m_isNetcodeValidationEnabled: 1
+    m_blacklist:
+    - assets/packages
+    sceneData:
+      dict:
+        m_throw: 1
+        m_keys:
+        - nhl1t3in.a7g
+        - pwronire.5xq
+        - sfshpjvx.oda
+        - ya51hvn4.fzk
+        - o6fa57la.7bz
+        - wm347a5x.c8g
+        - azcr0swe.mx3
+        m_values:
+        - dict:
+            m_throw: 1
+            m_keys:
+            - CrossSceneReferences
+            m_values:
+            - '{"scene":"Assets/Scenes/Gameplay.unity","references":[]}'
+        - dict:
+            m_throw: 1
+            m_keys:
+            - CrossSceneReferences
+            m_values:
+            - '{"scene":"Assets/Scenes/Startup.unity","references":[]}'
+        - dict:
+            m_throw: 1
+            m_keys:
+            - CrossSceneReferences
+            m_values:
+            - '{"scene":"Assets/Scenes/Gameplay.unity","references":[]}'
+        - dict:
+            m_throw: 1
+            m_keys:
+            - CrossSceneReferences
+            m_values:
+            - '{"scene":"Assets/Scenes/Network-Netcode likes to put it in DDOL.unity","references":[]}'
+        - dict:
+            m_throw: 1
+            m_keys:
+            - CrossSceneReferences
+            m_values:
+            - '{"scene":"Assets/Scenes/Playground.unity","references":[]}'
+        - dict:
+            m_throw: 1
+            m_keys:
+            - CrossSceneReferences
+            m_values:
+            - '{"scene":"Assets/Scenes/Level1.unity","references":[]}'
+        - dict:
+            m_throw: 1
+            m_keys:
+            - CrossSceneReferences
+            m_values:
+            - '{"scene":"Assets/Scenes/MainMenu.unity","references":[]}'
+    m_enableCrossSceneReferences: 1
+    m_sceneImportOption: 0
+    m_pauseScreenOptions:
+      m_enableInEditor: 0
+      m_enableInDevBuild: 0
+      m_enableInNonDevBuild: 0
+    m_inGameToolbarOptions:
+      m_enableInEditor: 0
+      m_enableInDevBuild: 0
+      m_enableInNonDevBuild: 0
+    m_allowExcludingCollectionsFromBuild: 0
+    m_asmInfo: {fileID: 11400000, guid: ff080580623f8384b901a47e8b333a3a, type: 2}
+    m_startProps:
+      displaySplashScreen: 1
+      forceOpenAllScenesOnCollection: 0
+      fadeInDuration: 1
+      fadeOutDuration: 0
+      openCollection: {fileID: 0}
+    m_assetPath: Assets/Settings/AdvancedSceneManager
+    m_customData:
+      dict:
+        m_throw: 1
+        m_keys: []
+        m_values: []
+    m_unitySplashScreenColor: {r: 0.12156863, g: 0.12156863, b: 0.1254902, a: 1}

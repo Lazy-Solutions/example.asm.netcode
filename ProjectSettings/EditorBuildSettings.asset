@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/AdvancedSceneManager/ASM - Fallback scene.unity
+    guid: 786a6c7efd00a1b42869d9c6fc7aaa36
+  - enabled: 1
+    path: Assets/Scenes/Startup.unity
+    guid: 981bc47e5359d77499018c902a854839
+  - enabled: 1
+    path: Assets/Scenes/Network-NetworkManager is DDOL....unity
+    guid: 8ba31d78a8299534c99fb86b6f792a4f
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: f4826d65c3a9134479d38489c0268a4b
+  - enabled: 1
+    path: Assets/Scenes/Playground.unity
+    guid: 707acc8dffb72b144bb1ffbe1c965f3d
+  - enabled: 1
+    path: Assets/Scenes/Gameplay.unity
+    guid: c36c6c8a936dc694ebb32e86c0d52bca
+  - enabled: 1
+    path: Assets/Scenes/Playground 1.unity
+    guid: c4de16b2238b1b349b3168167b311f38
+  - enabled: 1
+    path: Assets/AdvancedSceneManager/Defaults/Loading Screen/IconBounce/IconBounceLoadingScreen.unity
+    guid: 76635b856d46593498d486a865203344
+  - enabled: 1
+    path: Assets/AdvancedSceneManager/Defaults/Other/InGameToolbar.unity
+    guid: f7a5075cf01fb72449b4bd0b944f86a5
+  - enabled: 1
+    path: Assets/AdvancedSceneManager/Defaults/Loading Screen/ProgressBar/ProgressBarLoadingScreen.unity
+    guid: 3810c2d0fb51ffb4b945d605f10782a5
+  - enabled: 1
+    path: Assets/AdvancedSceneManager/Defaults/Loading Screen/Video/VideoLoadingScreen.unity
+    guid: 23eabc53aeaf5b640a5308126ea626d3
+  - enabled: 1
+    path: Assets/AdvancedSceneManager/Defaults/Loading Screen/Quote/QuoteLoadingScreen.unity
+    guid: a60bdb19550b79e4780c5e21533b274f
+  - enabled: 1
+    path: Assets/AdvancedSceneManager/Defaults/Other/DefaultPauseScreen.unity
+    guid: 226e5a6f57e81cc4e81e2d464fe798b3
+  - enabled: 1
+    path: Assets/AdvancedSceneManager/Defaults/Loading Screen/PressAnyButton/PressAnyButtonLoadingScreen.unity
+    guid: 0ad62d312b15063489bd01a22c89b0e8
+  - enabled: 1
+    path: Assets/AdvancedSceneManager/Defaults/Loading Screen/Fade/FadeLoadingScreen.unity
+    guid: cbffd398304640d4ab3cb4e7f79b7bdf
+  - enabled: 1
+    path: Assets/AdvancedSceneManager/Defaults/Splash Screen/ASM_SplashScreen.unity
+    guid: d8ac8f99a18230449b778006fc9a8795
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}

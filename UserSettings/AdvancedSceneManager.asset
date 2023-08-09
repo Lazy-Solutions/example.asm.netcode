@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b829205c14b3c3042ad5c47c9182f09a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_isCallbackUtilityEnabled: 0
+  m_callbackUtilityWindow: 
+  m_quickBuildPath: 
+  m_quickBuildUseProfiler: 0
+  m_lastPatchCheck:
+    m_value: 0
+  m_patchVersion: 
+  m_patchNotes: 
+  m_isTooOutOfDate: 0
+  m_activeProfile: {fileID: 11400000, guid: ea67e5f66dbee0b42b037a6b701481dc, type: 2}
+  runStartupProcess: 0
+  m_isBuildMode: 0
+  m_startupProcessOnCollectionPlay: 1
+  m_displayCollectionPlayButton: 1
+  m_displayCollectionOpenButton: 1
+  m_displayCollectionAdditiveButton: 1
+  m_displayIncludeInBuildToggle: 0
+  m_displaySceneLock: 0
+  m_displayCollectionLock: 0
+  m_logImport: 0
+  m_logTracking: 0
+  m_logLoading: 0
+  m_logStartup: 0
+  m_logOperation: 0
+  m_logBuildScenes: 0
+  m_displaySyncedIndicator: 1
+  m_openCollectionOnSceneAssetOpen: 0
