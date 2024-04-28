@@ -1,4 +1,4 @@
-# example.asm.netcode
+# Netcode example
 
 An example for Advanced Scene Manager that shows integration with netcode for gameobjects.
 
