@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 143365c1c80370a48a4c89e0b158bf44, type: 3}
   m_Name: MainMenu
   m_EditorClassIdentifier: 
-  m_id: azcr0swe.mx3
+  m_id: kdmlqo30.z1h
   m_path: Assets/Scenes/MainMenu.unity
-  m_sceneAsset: {fileID: 11400000}
+  m_sceneAsset: {fileID: 102900000, guid: f4826d65c3a9134479d38489c0268a4b, type: 3}
   m_isLoadingScreen: 0
   m_isSplashScreen: 0
   m_keepOpenWhenCollectionsClose: 0

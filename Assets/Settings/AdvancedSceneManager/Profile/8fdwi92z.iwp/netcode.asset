@@ -87,8 +87,8 @@ MonoBehaviour:
   m_Name: netcode
   m_EditorClassIdentifier: 
   m_id: 8fdwi92z.iwp
-  m_loadingScene: {fileID: 11400000, guid: 7e8b30d1274105d4ebd6db8f89d0795f, type: 2}
-  m_splashScene: {fileID: 0}
+  m_loadingScene: {fileID: 11400000, guid: 83b108229be1dca4796fac9d2ac50e85, type: 2}
+  m_splashScene: {fileID: 11400000, guid: 657ba7dc4a81ddc42a1ec79263dbbb31, type: 2}
   m_startupScene: {fileID: 0}
   m_backgroundLoadingPriority: 1
   m_enableChangingBackgroundLoadingPriority: 0
@@ -101,7 +101,8 @@ MonoBehaviour:
   m_dynamicCollections: []
   m_standaloneDynamicCollection:
     m_id: 0vSdemyqrE+2PfDpSC2DJQ
-    m_scenes: []
+    m_scenes:
+    - {fileID: 11400000, guid: 9280929e10128a94a81bed27a596c267, type: 2}
     m_sceneBindings:
       m_throw: 1
       m_keys:
@@ -138,7 +139,7 @@ MonoBehaviour:
   m_title: Main menu
   m_description: 
   m_scenes:
-  - {fileID: 11400000, guid: 9280929e10128a94a81bed27a596c267, type: 2}
+  - {fileID: 11400000, guid: 8bf3007c10fa8ab4f8b63dfcf8f17154, type: 2}
   m_prefix: 'netcode - '
   m_loadingScreenUsage: 1
   m_loadingScreen: {fileID: 0}

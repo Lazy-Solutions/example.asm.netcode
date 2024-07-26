@@ -41,8 +41,11 @@ public class ConnectionManager : Singleton<ConnectionManager>
 
     private void OnClientDisconnect(ulong clientId)
     {
-        NetworkManager.Singleton.SceneManager.OnSynchronize -= OnSynchronize;
-        NetworkManager.Singleton.SceneManager.OnSynchronizeComplete -= OnSynchronizeComplete;
+        if(NetworkManager.Singleton != null && NetworkManager.Singleton.SceneManager != null)
+        {
+            NetworkManager.Singleton.SceneManager.OnSynchronize -= OnSynchronize;
+            NetworkManager.Singleton.SceneManager.OnSynchronizeComplete -= OnSynchronizeComplete;
+        }
 
         Connection?.OnDisconnected(clientId);
     }
@@ -61,7 +64,7 @@ public class ConnectionManager : Singleton<ConnectionManager>
         {
             if (!v)
                 throw new Exception("Failed to connect");
-        }), Profile.current.loadingScreen);
+        }), Profile.current.loadingScene);
     }
 
     public void StartHost()
@@ -71,7 +74,7 @@ public class ConnectionManager : Singleton<ConnectionManager>
         {
             if (!v)
                 throw new Exception("Failed to host");
-        }), Profile.current.loadingScreen);
+        }), Profile.current.loadingScene);
     }
 
     IEnumerator ClientSequence(Action<bool> connectionCallback)

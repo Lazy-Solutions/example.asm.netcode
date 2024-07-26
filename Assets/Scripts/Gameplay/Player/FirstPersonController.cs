@@ -64,7 +64,7 @@ namespace StarterAssets
 		private float _jumpTimeoutDelta;
 		private float _fallTimeoutDelta;
 
-	
+
 		private PlayerInput _playerInput;
 		private CharacterController _controller;
 		private PlayerInputs _input;
@@ -72,7 +72,7 @@ namespace StarterAssets
 
 		private const float _threshold = 0.01f;
 
-        private bool IsCurrentDeviceMouse => _playerInput.currentControlScheme == "KeyboardMouse";
+		private bool IsCurrentDeviceMouse => _playerInput.currentControlScheme == "KeyboardMouse";
 
 		private void Start()
 		{
@@ -118,7 +118,7 @@ namespace StarterAssets
 			{
 				//Don't multiply mouse input by Time.deltaTime
 				float deltaTimeMultiplier = IsCurrentDeviceMouse ? 1.0f : Time.deltaTime;
-				
+
 				_cinemachineTargetPitch += _input.Look.y * RotationSpeed * deltaTimeMultiplier;
 				_rotationVelocity = _input.Look.x * RotationSpeed * deltaTimeMultiplier;
 

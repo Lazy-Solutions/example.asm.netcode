@@ -17,21 +17,21 @@ public class PlayerInputs : MonoBehaviour
 	public bool cursorLocked = true;
 	public bool cursorInputForLook = true;
 
-    public void OnMove(InputValue value) => Move = value.Get<Vector2>();
+	public void OnMove(InputValue value) => Move = value.Get<Vector2>();
 
-    public void OnLook(InputValue value)
+	public void OnLook(InputValue value)
 	{
-		if(cursorInputForLook)
+		if (cursorInputForLook)
 		{
 			Look = value.Get<Vector2>();
 		}
 	}
 
-    public void OnJump(InputValue value) => Jump = value.isPressed;
-    public void OnSprint(InputValue value) => Sprint = value.isPressed;
-    public void OnCrouch(InputValue value) => Crouch = value.isPressed;
+	public void OnJump(InputValue value) => Jump = value.isPressed;
+	public void OnSprint(InputValue value) => Sprint = value.isPressed;
+	public void OnCrouch(InputValue value) => Crouch = value.isPressed;
 
-    private void OnApplicationFocus(bool hasFocus)
+	private void OnApplicationFocus(bool hasFocus)
 	{
 		SetCursorState(cursorLocked);
 	}

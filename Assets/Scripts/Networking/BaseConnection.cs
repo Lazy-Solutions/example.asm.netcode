@@ -1,5 +1,5 @@
-using LazyEvents;
 using Unity.Netcode;
+using LazyEvents;
 
 /*
  * Connection classes contains some of the used events when connecting / disconnecting

@@ -19,7 +19,7 @@ public class GameManager : Singleton<GameManager>, ICollectionOpen
     {
         // Our singleton needs this to register
         base.Awake();
-        if (!NetworkManager.Singleton.IsServer)
+        if (NetworkManager.Singleton != null && !NetworkManager.Singleton.IsServer)
         {
             Destroy(gameObject);
         }

@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Network-NetworkManager is DDOL....unity
     guid: 8ba31d78a8299534c99fb86b6f792a4f
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: f4826d65c3a9134479d38489c0268a4b
+  - enabled: 1
     path: Assets/Scenes/Playground.unity
     guid: 707acc8dffb72b144bb1ffbe1c965f3d
   - enabled: 1
@@ -23,6 +26,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Playground 1.unity
     guid: c4de16b2238b1b349b3168167b311f38
+  - enabled: 1
+    path: Packages/com.lazy.advanced-scene-manager/Default scenes/Fade/Fade.unity
+    guid: cbffd398304640d4ab3cb4e7f79b7bdf
+  - enabled: 1
+    path: Packages/com.lazy.advanced-scene-manager/Default scenes/Splash ASM/Splash
+      ASM.unity
+    guid: d8ac8f99a18230449b778006fc9a8795
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
-  m_UseUCBPForAssetBundles: 0

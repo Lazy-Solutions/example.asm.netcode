@@ -1,3 +1,4 @@
+using LazyEvents;
 using Unity.Netcode;
 using UnityEngine;
 
@@ -20,6 +21,8 @@ public class ClientManager : MonoBehaviour
 
     private void Start()
     {
+        if (NetworkManager.Singleton == null) return;
+        
         if (!NetworkManager.Singleton.IsServer)
             EventPlanner.AddListner("SynchronizeComplete", OnSynchronizeComplete);
         else
