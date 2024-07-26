@@ -3,7 +3,7 @@
 An example for Advanced Scene Manager that shows integration with netcode for gameobjects.
 
 Requirements:
-ASM 2.0+, Unity 2022.3.2+
+ASM 2.2+, Made with Unity 2022.3.5.
 
 Usage:
 1. Clone this project.
