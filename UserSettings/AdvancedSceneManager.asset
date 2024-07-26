@@ -16,21 +16,8 @@ MonoBehaviour:
   m_callbackUtilityWindow: 
   m_quickBuildPath: 
   m_quickBuildUseProfiler: 0
-  m_lastPatchCheck:
-    m_value: 0
-  m_patchVersion: 
-  m_patchNotes: 
-  m_isTooOutOfDate: 0
   m_activeProfile: {fileID: 11400000, guid: ea67e5f66dbee0b42b037a6b701481dc, type: 2}
-  runStartupProcess: 0
-  m_isBuildMode: 0
   m_startupProcessOnCollectionPlay: 1
-  m_displayCollectionPlayButton: 1
-  m_displayCollectionOpenButton: 1
-  m_displayCollectionAdditiveButton: 1
-  m_displayIncludeInBuildToggle: 0
-  m_displaySceneLock: 0
-  m_displayCollectionLock: 0
   m_logImport: 0
   m_logTracking: 0
   m_logLoading: 0
@@ -38,4 +25,38 @@ MonoBehaviour:
   m_logOperation: 0
   m_logBuildScenes: 0
   m_displaySyncedIndicator: 1
+  m_openCollection: {fileID: 0}
+  m_additiveCollections: []
+  m_pinnedOverlayCollections: []
+  m_alwaysSaveScenesWhenEnteringPlayMode: 0
+  m_displayProfileButton: 1
+  m_displayHierarchyIndicators: 1
+  m_displaySceneHelperButton: 1
+  m_displayCollectionPlayButton: 1
+  m_displayCollectionOpenButton: 1
+  m_displayCollectionAdditiveButton: 1
+  m_displayIncludeInBuildToggle: 0
+  m_displayOverviewButton: 1
+  m_displaySearchButton: 1
+  m_displayDevBuildButton: 0
+  m_displayProjectSettingsButton: 0
+  m_displayBuildProfilesButton: 0
+  m_displayCodeEditorButton: 0
+  m_toolbarButtonCount: 1
+  m_toolbarPlayButtonOffset: 0
+  m_toolbarButtonActions:
+    m_throw: 1
+    m_keys: 
+    m_values: []
+  m_toolbarButtonActions2:
+    m_throw: 1
+    m_keys: 
+    m_values: 
+  m_alwaysDisplaySearch: 0
+  m_hideDocsNotification: 1
+  m_expandedCollections:
+  - w1opfwwe.mvb
+  m_selectedScenes: []
+  m_selectedCollections: []
+  savedSearches: []
   m_openCollectionOnSceneAssetOpen: 0

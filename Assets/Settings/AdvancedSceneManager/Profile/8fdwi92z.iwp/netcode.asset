@@ -22,7 +22,7 @@ MonoBehaviour:
   m_loadingScreenUsage: 2
   m_loadingScreen: {fileID: 0}
   m_activeScene: {fileID: 11400000, guid: a34224a313a4d8a48a383b6ae1605cbf, type: 2}
-  hasSetDefaultActiveScene: 0
+  m_setActiveSceneWhenOpenedAsAdditive: 0
   m_unloadUnusedAssets: 1
   m_openAsPersistent: 0
   m_openAsDisabled: 0
@@ -30,6 +30,8 @@ MonoBehaviour:
   m_startupOption: 2
   m_loadingPriority: -2
   m_isIncluded: 1
+  m_isLocked: 0
+  m_lockMessage: 
   m_scenesThatShouldNotAutomaticallyOpen: []
   m_binding:
     m_buttons: []
@@ -57,7 +59,7 @@ MonoBehaviour:
   m_loadingScreenUsage: 1
   m_loadingScreen: {fileID: 0}
   m_activeScene: {fileID: 11400000, guid: be6ff5784aa518941a1c9f47eefc4a47, type: 2}
-  hasSetDefaultActiveScene: 0
+  m_setActiveSceneWhenOpenedAsAdditive: 0
   m_unloadUnusedAssets: 1
   m_openAsPersistent: 1
   m_openAsDisabled: 0
@@ -65,6 +67,8 @@ MonoBehaviour:
   m_startupOption: 1
   m_loadingPriority: -2
   m_isIncluded: 1
+  m_isLocked: 0
+  m_lockMessage: 
   m_scenesThatShouldNotAutomaticallyOpen: []
   m_binding:
     m_buttons: []
@@ -83,39 +87,18 @@ MonoBehaviour:
   m_Name: netcode
   m_EditorClassIdentifier: 
   m_id: 8fdwi92z.iwp
+  m_loadingScene: {fileID: 11400000, guid: 7e8b30d1274105d4ebd6db8f89d0795f, type: 2}
+  m_splashScene: {fileID: 0}
   m_startupScene: {fileID: 0}
-  m_loadingScreen: {fileID: 11400000, guid: 7e8b30d1274105d4ebd6db8f89d0795f, type: 2}
-  m_splashScreen: {fileID: 11400000, guid: 84eb30029b6e9b14aab6be8b57f934ae, type: 2}
-  m_startupLoadingScreen: {fileID: 11400000, guid: 7e8b30d1274105d4ebd6db8f89d0795f, type: 2}
   m_backgroundLoadingPriority: 1
   m_enableChangingBackgroundLoadingPriority: 0
-  m_createCameraDuringStartup: 0
   m_unloadUnusedAssetsForStandalone: 1
   m_collections:
   - {fileID: -2834648111923181126}
   - {fileID: 6778766566519295680}
   - {fileID: -6366578430325381964}
   - {fileID: 8469186347813310372}
-  m_dynamicCollections:
-  - m_id: WXeNY1ZV1UqtIyDut4rz1g
-    m_path: Assets/AdvancedSceneManager/Defaults
-    m_title: ASM Defaults
-    m_description: 'These are scenes that ASM provides out-of-the-box as a convenience,
-      these are listed here to make sure they are included in build by default.
-
-
-      If
-      you aren''t using any of these, you may remove this dynamic collection.'
-    m_cachedPaths:
-    - Assets/AdvancedSceneManager/Defaults/Loading Screen/Fade/FadeLoadingScreen.unity
-    - Assets/AdvancedSceneManager/Defaults/Loading Screen/IconBounce/IconBounceLoadingScreen.unity
-    - Assets/AdvancedSceneManager/Defaults/Loading Screen/PressAnyButton/PressAnyButtonLoadingScreen.unity
-    - Assets/AdvancedSceneManager/Defaults/Loading Screen/ProgressBar/ProgressBarLoadingScreen.unity
-    - Assets/AdvancedSceneManager/Defaults/Loading Screen/Quote/QuoteLoadingScreen.unity
-    - Assets/AdvancedSceneManager/Defaults/Loading Screen/Video/VideoLoadingScreen.unity
-    - Assets/AdvancedSceneManager/Defaults/Other/DefaultPauseScreen.unity
-    - Assets/AdvancedSceneManager/Defaults/Other/InGameToolbar.unity
-    - Assets/AdvancedSceneManager/Defaults/Splash Screen/ASM_SplashScreen.unity
+  m_dynamicCollections: []
   m_standaloneDynamicCollection:
     m_id: 0vSdemyqrE+2PfDpSC2DJQ
     m_scenes: []
@@ -160,7 +143,7 @@ MonoBehaviour:
   m_loadingScreenUsage: 1
   m_loadingScreen: {fileID: 0}
   m_activeScene: {fileID: 11400000, guid: 9280929e10128a94a81bed27a596c267, type: 2}
-  hasSetDefaultActiveScene: 0
+  m_setActiveSceneWhenOpenedAsAdditive: 0
   m_unloadUnusedAssets: 1
   m_openAsPersistent: 0
   m_openAsDisabled: 0
@@ -168,6 +151,8 @@ MonoBehaviour:
   m_startupOption: 1
   m_loadingPriority: -2
   m_isIncluded: 1
+  m_isLocked: 0
+  m_lockMessage: 
   m_scenesThatShouldNotAutomaticallyOpen: []
   m_binding:
     m_buttons: []
@@ -195,7 +180,7 @@ MonoBehaviour:
   m_loadingScreenUsage: 1
   m_loadingScreen: {fileID: 0}
   m_activeScene: {fileID: 11400000, guid: a34224a313a4d8a48a383b6ae1605cbf, type: 2}
-  hasSetDefaultActiveScene: 0
+  m_setActiveSceneWhenOpenedAsAdditive: 0
   m_unloadUnusedAssets: 1
   m_openAsPersistent: 0
   m_openAsDisabled: 0
@@ -203,6 +188,8 @@ MonoBehaviour:
   m_startupOption: 0
   m_loadingPriority: -2
   m_isIncluded: 1
+  m_isLocked: 0
+  m_lockMessage: 
   m_scenesThatShouldNotAutomaticallyOpen: []
   m_binding:
     m_buttons: []

@@ -1,6 +1,3 @@
-#if ADVANCED_SCENE_MANAGER
-
-using LazyEvents;
 using Unity.Netcode;
 using UnityEngine;
 
@@ -24,7 +21,7 @@ public class ClientManager : MonoBehaviour
     private void Start()
     {
         if (!NetworkManager.Singleton.IsServer)
-            EventPlanner.AddListner("SynchronizeComplete", OnSynchronizeComplete); 
+            EventPlanner.AddListner("SynchronizeComplete", OnSynchronizeComplete);
         else
             message = new RemoteMessage<bool>("ClientManager", RemoteMessage); // client dont need this one
     }
@@ -32,9 +29,9 @@ public class ClientManager : MonoBehaviour
     private void RemoteMessage(bool data, ulong sender)
     {
         // should not reach clients, but just in case
-        if (!NetworkManager.Singleton.IsServer) 
+        if (!NetworkManager.Singleton.IsServer)
             return;
-           
+
         GameManager.Instance.PlayerObjectRequest(sender);
         message.Dispose();
     }
@@ -49,5 +46,3 @@ public class ClientManager : MonoBehaviour
         }
     }
 }
-
-#endif

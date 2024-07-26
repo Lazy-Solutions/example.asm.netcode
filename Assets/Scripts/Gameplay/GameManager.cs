@@ -1,5 +1,3 @@
-#if ADVANCED_SCENE_MANAGER
-
 using System.Collections.Generic;
 using System.Linq;
 using AdvancedSceneManager.Callbacks;
@@ -60,7 +58,7 @@ public class GameManager : Singleton<GameManager>, ICollectionOpen
         // grabbing the index, we know we will have max amount of player and spawned x amount
         int index = NetworkManager.Singleton.ConnectedClientsList.ToList().FindIndex(x => x.ClientId == uid);
 
-        if(index < 0)
+        if (index < 0)
         {
             Debug.Log("Error spawning player, id incorrect");
             return;
@@ -82,4 +80,3 @@ public class GameManager : Singleton<GameManager>, ICollectionOpen
     }
 
 }
-#endif

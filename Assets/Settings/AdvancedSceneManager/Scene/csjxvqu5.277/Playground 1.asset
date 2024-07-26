@@ -14,9 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_id: csjxvqu5.277
   m_path: Assets/Scenes/Playground 1.unity
+  m_sceneAsset: {fileID: 102900000, guid: c4de16b2238b1b349b3168167b311f38, type: 3}
   m_isLoadingScreen: 0
   m_isSplashScreen: 0
   m_keepOpenWhenCollectionsClose: 0
   m_keepOpenWhenNewCollectionWouldReopen: 1
   m_openOnStartup: 0
+  m_openOnPlayMode: 0
+  m_autoOpenInEditor: 0
+  m_autoOpenInEditorScenes: []
+  m_isLocked: 0
+  m_lockMessage: 
+  m_crossSceneReferences: []
   m_sceneLoader: AdvancedSceneManager.PackageSupport.Netcode.SceneLoader

@@ -1,8 +1,3 @@
-#if UNITY_EDITOR && !ADVANCED_SCENE_MANAGER
-
-using UnityEditor;
-using UnityEngine;
-
 static class Example
 {
 
@@ -20,10 +15,10 @@ static class Example
         GUILayout.BeginHorizontal();
         GUILayout.FlexibleSpace();
         var c = GUI.color;
-        GUI.color = new Color(0.8f,0.8f,0.8f,1);
+        GUI.color = new Color(0.8f, 0.8f, 0.8f, 1);
         GUILayout.BeginVertical(GUI.skin.window);
         GUI.color = c;
-        
+
 
         var f = EditorStyles.label.fontSize;
         EditorStyles.label.fontSize = 16;
@@ -58,4 +53,3 @@ static class Example
     }
 
 }
-#endif

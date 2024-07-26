@@ -1,0 +1,29 @@
+{
+    "name": "AdvancedSceneManager.Examples.Netcode",
+    "rootNamespace": "",
+    "references": [
+        "GUID:3b8ed52f1b5c64994af4c4e0aa4b6c4b",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:2c6f01f5d27984343bd2e98e1116e8fd",
+        "GUID:1491147abca9d7d4bb7105af628b223e",
+        "GUID:e4f319db4d4ecf5439bfdbd4a4801507",
+        "GUID:09dcc9c0126b6b34ab2a877b8f2277f5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "ASM"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.lazy.advanced-scene-manager",
+            "expression": "2.2",
+            "define": "ASM"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -14,9 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_id: ya51hvn4.fzk
   m_path: Assets/Scenes/Network-NetworkManager is DDOL....unity
+  m_sceneAsset: {fileID: 102900000, guid: 8ba31d78a8299534c99fb86b6f792a4f, type: 3}
   m_isLoadingScreen: 0
   m_isSplashScreen: 0
   m_keepOpenWhenCollectionsClose: 0
   m_keepOpenWhenNewCollectionWouldReopen: 1
   m_openOnStartup: 0
+  m_openOnPlayMode: 0
+  m_autoOpenInEditor: 0
+  m_autoOpenInEditorScenes: []
+  m_isLocked: 0
+  m_lockMessage: 
+  m_crossSceneReferences: []
   m_sceneLoader: 

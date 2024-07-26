@@ -43,3 +43,4 @@ Assets/Packages/AdvancedSceneManager
 Assets/Packages/AdvancedSceneManager.meta
 ProjectSettings/ProjectSettings.asset
 Packages/plugin*
+/Packages/com.lazy.advanced-scene-manager

@@ -1,5 +1,3 @@
-#if ADVANCED_SCENE_MANAGER
-
 using AdvancedSceneManager.Models;
 using UnityEngine;
 
@@ -20,5 +18,3 @@ public class MenuController : MonoBehaviour
     }
 
 }
-
-#endif

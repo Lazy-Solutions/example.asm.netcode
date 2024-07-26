@@ -1,5 +1,3 @@
-#if ADVANCED_SCENE_MANAGER
-
 using System;
 using System.Collections;
 using System.Linq;
@@ -7,7 +5,6 @@ using AdvancedSceneManager;
 using AdvancedSceneManager.Models;
 using LazyEvents;
 using Unity.Netcode;
-using UnityEngine;
 
 public class ConnectionManager : Singleton<ConnectionManager>
 {
@@ -52,7 +49,7 @@ public class ConnectionManager : Singleton<ConnectionManager>
 
     private void OnSynchronize(ulong clientId)
     => Connection?.OnBeginSynchronize(clientId);
-    private void OnSynchronizeComplete(ulong clientId) 
+    private void OnSynchronizeComplete(ulong clientId)
         => Connection?.OnSynchronizeComplete(clientId);
 
 
@@ -60,7 +57,8 @@ public class ConnectionManager : Singleton<ConnectionManager>
     public void StartClient()
     {
         Connection = clientConnection;
-        SceneTransitionHandler.Instance.Transition(ClientSequence(v => {
+        SceneTransitionHandler.Instance.Transition(ClientSequence(v =>
+        {
             if (!v)
                 throw new Exception("Failed to connect");
         }), Profile.current.loadingScreen);
@@ -69,7 +67,8 @@ public class ConnectionManager : Singleton<ConnectionManager>
     public void StartHost()
     {
         Connection = hostConnection;
-        SceneTransitionHandler.Instance.Transition(HostSequence(v => {
+        SceneTransitionHandler.Instance.Transition(HostSequence(v =>
+        {
             if (!v)
                 throw new Exception("Failed to host");
         }), Profile.current.loadingScreen);
@@ -109,7 +108,7 @@ public class ConnectionManager : Singleton<ConnectionManager>
     }
 
     IEnumerator HostSequence(Action<bool> connectionCallback)
-    {        
+    {
         if (!NetworkManager.Singleton.StartHost())
         {
             connectionCallback.Invoke(false);
@@ -123,5 +122,3 @@ public class ConnectionManager : Singleton<ConnectionManager>
 
 
 }
-
-#endif
