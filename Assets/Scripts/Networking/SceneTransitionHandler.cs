@@ -1,7 +1,6 @@
 using System.Collections;
 using AdvancedSceneManager.Models;
 using AdvancedSceneManager.Utility;
-using Lazy.Utility;
 
 public class SceneTransitionHandler : Singleton<SceneTransitionHandler>
 {
